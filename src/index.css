@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply px-5 py-2 rounded-md border-[1px] border-gray-400 mb-2 w-full block;
+  }
+  .error {
+    @apply text-red-600 bg-red-200 border-red-600 border-[1px] rounded-md border-dotted px-5 py-2 mb-4;
+  }
+  .btn {
+    @apply bg-purple-700 text-white px-5 py-3 rounded-md border-none outline-none ring-0;
+  }
+}
